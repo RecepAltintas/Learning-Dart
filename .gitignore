@@ -1,15 +1,13 @@
-# Dart/Flutter build dosyaları
+
 .dart_tool/
 .packages
 build/
-pubspec.lock  # (Opsiyonel: Kütüphane yazıyorsan ekleme, uygulama yazıyorsan kalabilir)
+pubspec.lock  
 
-# IDE dosyaları (VS Code, IntelliJ vb.)
 .idea/
 .vscode/
 *.iml
 *.ipr
 *.iws
 
-# Mac sistemi dosyaları
 .DS_Store

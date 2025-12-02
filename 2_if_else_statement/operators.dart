@@ -1,7 +1,7 @@
 void main(List<String> args) {
   // + , -, *, /, %
 
-  int num1 = 10, num2 = 10;
+  int num1 = 10, num2 = 5;
   print("sum of $num1 and $num2 is ${num1 + num2}");
   print("subs of $num1 and $num2 is ${num1 - num2}");
   print("multiplication of $num1 and $num2 is ${num1 * num2}");
@@ -32,4 +32,43 @@ void main(List<String> args) {
   if(num1 == num2){
     print("$num1 and $num2 is equal");
   }
+  //logical operators &&, ||, !
+  
+  if (num1 > 5 && num1 < 20){
+    print("conditions true");
+  }else{
+    print("conditions false");
+  }
+
+  if (num1 > 10 || num1 < 20){
+    print("conditions true");
+  }else{
+    print("conditions false");
+  }
+  bool isStudent = false;
+
+  if(!isStudent){
+    print("not student");
+  }else{
+    print("student");
+  }
+  // İncrease and decrease operators.
+  num1 = num1++; //first increase the num1 and after that assign
+  print(num1);
+  num1 = ++num1; //first assign the num1 and after that increase
+  print(num1);
+  num1 = num1--;
+  num1 = --num1;
+
+  int n1 = 0, n2 = 5;
+  n1 = n2++;
+  print("n1 = $n1, n2 = $n2");
+  n2 = ++n1;
+  print("n1 = $n1, n2 = $n2");
+
+  n1 += 5;
+  print(n1);
+  n1 -= 5;
+  print(n1);
+   
 }
