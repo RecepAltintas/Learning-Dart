@@ -49,8 +49,6 @@ void main(List<String> args) {
 
   if(!isStudent){
     print("not student");
-  }else{
-    print("student");
   }
   // İncrease and decrease operators.
   num1 = num1++; //first increase the num1 and after that assign
@@ -70,5 +68,4 @@ void main(List<String> args) {
   print(n1);
   n1 -= 5;
   print(n1);
-   
 }
